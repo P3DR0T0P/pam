@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            background-image: url(chamas.jpg);
+            background-repeat: no-repeat;
+            background-size: 103%;
+            font-family: d;
+        }
+
+        header{
+            display: flex;
+            background-color: rgba(32, 97, 97, 0.37);
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .menu, .links{
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .links>a{
+            text-decoration: none;
+            color: aliceblue;
+            font-family: d;
+            font-size: 13px;
+        }
+
+        @font-face {
+            font-family: d;
+            src: url(d.ttf);
+        }
+
+        .principal{
+            margin-top: 12%;
+            margin-left: 37%;
+        }
+
+        button{
+            margin-left: 13%;
+            width: 200px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        button>a{
+            text-decoration: none;
+        }
+        
+        .nomes{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabalho de Pam</h1>
+
+        <nav>
+            <ul class="menu">
+                <li class="links"><a href="#">Home</a></li>
+                <li class="links"><a href="#">Sobre</a></li>
+                <li class="links"><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="conteudo">
+            <img src="vibe.png" alt="vibe" widht="500" height="400"><br><br>
+            <button type="submit">Testar sua vibe</button>
+            <marquee>
+                <ul>
+                    <li class="nomes">Antonio Moreira Denadai</li>
+                    <li class="nomes">Caio de Azevedo Santicchio</li>
+                    <li class="nomes">Pedro Henrrique da Cunha</li>
+                </ul>
+            </marquee>
+        </section>
+    </main>
+</body>
+</html>
